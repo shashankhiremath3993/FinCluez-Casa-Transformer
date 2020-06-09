@@ -1,0 +1,29 @@
+server:
+  port: 8081
+spring:
+  jmx:
+    default-domain: FinCluez-Casa-Transformer
+  main:
+    allow-bean-definition-overriding: true
+  jackson:
+    default-property-inclusion: NON_NULL
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        temp:
+          use_jdbc_metadata_defaults: false
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+  batch:
+    initialize-schema: always
+    job:
+      enabled: false
+  application:
+    name: FinCluez-Casa-Transformer
+  banner:
+    location: classpath:banner.txt
+PROPERTY_PATH: D:/FinCluez-Refactor/fincluez-casa-transformer/fincluez-casa-transformer/properties/FinCluez-Casa-Transformer.yml

@@ -1,0 +1,3 @@
+08-06-2020 15:37:50.484 [main] INFO  c.p.f.f.FincluezCasaTransformerApplicationTests.logStarting - Starting FincluezCasaTransformerApplicationTests on PRO-PGHG219 with PID 32788 (started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+08-06-2020 15:37:50.550 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplicationTests.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+08-06-2020 15:37:50.563 [main] INFO  c.p.f.f.FincluezCasaTransformerApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default

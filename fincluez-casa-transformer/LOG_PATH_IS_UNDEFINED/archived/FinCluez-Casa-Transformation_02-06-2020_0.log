@@ -1,0 +1,291 @@
+27-05-2020 01:12:09.015 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 26912 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:12:09.018 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:12:09.020 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:14:20.443 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 10280 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:14:20.445 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:14:20.447 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:14:43.829 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 25.246 seconds (JVM running for 27.01)
+27-05-2020 01:21:16.856 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 14268 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:21:16.859 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:21:16.862 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:21:31.451 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 16.628 seconds (JVM running for 18.543)
+27-05-2020 01:30:00.789 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 22144 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:30:00.795 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:30:00.796 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:30:17.482 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 19.177 seconds (JVM running for 21.182)
+27-05-2020 01:31:23.593 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 24664 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:31:23.614 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:31:23.615 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:31:39.937 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 18.403 seconds (JVM running for 20.35)
+27-05-2020 01:34:05.722 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 27984 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:34:05.732 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:34:05.733 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:34:21.720 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 17.903 seconds (JVM running for 19.814)
+27-05-2020 01:41:14.588 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 25648 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:41:14.602 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:41:14.604 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:41:31.141 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 18.373 seconds (JVM running for 20.435)
+27-05-2020 01:42:44.658 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 5408 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:42:44.675 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:42:44.677 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:42:58.002 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 01:43:24.442 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 22444 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:43:24.445 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:43:24.446 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:43:39.811 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 01:47:54.628 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 30080 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:47:54.630 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:47:54.632 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:48:09.355 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 01:51:48.047 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 3056 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:51:48.050 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:51:48.052 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:52:02.709 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 01:53:17.424 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 32 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:53:17.426 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:53:17.427 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:53:32.094 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 01:57:46.268 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 19592 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:57:46.270 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:57:46.272 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:58:02.066 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 01:59:16.575 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 25880 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 01:59:16.578 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 01:59:16.580 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 01:59:30.642 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:01:06.599 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 31120 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:01:06.604 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:01:06.606 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:01:20.982 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:08:02.618 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 16004 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:08:02.621 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:08:02.622 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:08:18.363 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:09:05.864 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 31332 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:09:05.866 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:09:05.867 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:09:19.619 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:10:07.833 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 3268 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:10:07.836 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:10:07.838 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:10:24.475 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 18.53 seconds (JVM running for 20.48)
+27-05-2020 02:11:26.903 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 24400 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:11:26.907 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:11:26.908 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:11:41.059 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:12:41.499 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 30836 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:12:41.502 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:12:41.503 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:12:55.250 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:13:58.257 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 28616 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:13:58.261 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:13:58.262 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:14:11.894 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:15:04.579 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 27372 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:15:04.582 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:15:04.583 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:15:19.311 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:18:24.789 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 9392 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:18:24.792 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:18:24.794 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:18:38.956 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:23:28.711 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 22440 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:23:28.713 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:23:28.715 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:23:42.085 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:24:24.617 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 12760 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:24:24.619 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:24:24.620 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:24:38.792 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:28:05.545 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 25996 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:28:05.548 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:28:05.550 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:28:20.669 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:30:31.778 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 6436 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:30:31.781 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:30:31.782 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:30:45.272 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:32:40.408 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 26780 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:32:40.411 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:32:40.412 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:32:55.197 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:37:17.832 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 1600 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:37:17.834 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:37:17.835 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:37:30.913 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:40:09.714 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 30884 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:40:09.718 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:40:09.719 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:40:24.391 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:42:09.264 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 27672 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:42:09.266 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:42:09.267 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:42:22.687 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:42:49.083 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 21380 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:42:49.089 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:42:49.090 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:43:03.596 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:45:55.501 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 28976 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:45:55.507 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:45:55.508 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:46:08.955 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:46:55.358 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 14316 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:46:55.360 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:46:55.361 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:48:49.360 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 7688 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:48:49.363 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:48:49.364 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:49:02.998 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:51:11.190 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 12896 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:51:11.193 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:51:11.194 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:51:25.695 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 02:56:36.425 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 22668 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 02:56:36.428 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 02:56:36.429 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 02:56:50.276 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 03:14:49.204 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 22588 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 03:14:49.208 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 03:14:49.210 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 03:15:12.440 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 03:17:24.021 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 13824 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 03:17:24.024 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 03:17:24.025 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 03:17:37.776 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 09:46:36.836 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 4276 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 09:46:36.854 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 09:46:36.856 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 10:00:24.782 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 13176 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 10:00:24.785 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 10:00:24.787 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 10:10:26.742 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 29388 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 10:10:26.746 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 10:10:26.747 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 10:18:22.374 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 18492 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 10:18:22.377 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 10:18:22.380 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 10:18:49.887 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 10:24:24.195 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 30752 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 10:24:24.197 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 10:24:24.199 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 10:24:41.620 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 10:24:46.821 [main] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorReaderConfig.getDriverQueryForQueuePopulator - Inside getDriverQueryForQueuePopulator
+27-05-2020 10:40:56.809 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 31624 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 10:40:56.812 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 10:40:56.813 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 10:41:15.341 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 10:41:16.575 [main] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorReaderConfig.getDriverQueryForQueuePopulator - Inside getDriverQueryForQueuePopulator
+27-05-2020 10:41:18.041 [main] DEBUG c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.casaTransformerQueuePopulatorStep - Creating casaTransformerQueuePopulatorStep
+27-05-2020 10:41:18.245 [main] DEBUG c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.casaTransformerQueuePopulatorJob - Creating casaTransformerQueuePopulatorJob
+27-05-2020 10:41:26.787 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 31.855 seconds (JVM running for 33.822)
+27-05-2020 10:50:49.429 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 19076 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 10:50:49.438 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 10:50:49.440 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 10:51:03.598 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 10:51:04.495 [main] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorReaderConfig.getDriverQueryForQueuePopulator - Inside getDriverQueryForQueuePopulator
+27-05-2020 10:51:04.890 [main] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorReaderConfig.getDriverQueryForQueuePopulator - querystore retrieved select branch_code, cust_ac_no from stg_sttm_cust_account 
+27-05-2020 10:51:04.897 [main] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorReaderConfig.casaTransformerQueuePopulatorReader - reader instantiated
+27-05-2020 10:51:05.107 [main] DEBUG c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.casaTransformerQueuePopulatorStep - Creating casaTransformerQueuePopulatorStep
+27-05-2020 10:51:05.235 [main] DEBUG c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.casaTransformerQueuePopulatorJob - Creating casaTransformerQueuePopulatorJob
+27-05-2020 10:51:10.784 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 23.216 seconds (JVM running for 24.988)
+27-05-2020 10:51:14.038 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@6013d559
+27-05-2020 10:51:14.039 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@642c4d83
+27-05-2020 10:51:14.038 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@1437c371
+27-05-2020 10:51:14.040 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@212edf62
+27-05-2020 10:51:14.040 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@6e02960a
+27-05-2020 10:51:14.040 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@2978f4cb
+27-05-2020 10:51:14.041 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@10c53f8e
+27-05-2020 10:51:14.041 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@16032840
+27-05-2020 10:51:14.042 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@4101202d
+27-05-2020 10:51:14.042 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@3bc95cc1
+27-05-2020 10:51:14.043 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@2c92d79
+27-05-2020 10:51:14.043 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@7defba92
+27-05-2020 10:51:14.043 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@d074448
+27-05-2020 10:51:14.053 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorWriter.write - Inside CTQ Writer with 5
+27-05-2020 10:51:14.044 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@3e013e67
+27-05-2020 10:51:14.068 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@14874e9d
+27-05-2020 10:51:14.068 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@7ab73e6a
+27-05-2020 10:51:14.069 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@7a8c3084
+27-05-2020 10:51:14.069 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@4dc9dbb4
+27-05-2020 10:51:14.070 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@63148736
+27-05-2020 10:51:14.070 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@2013a150
+27-05-2020 10:51:14.071 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorWriter.write - Inside CTQ Writer with 5
+27-05-2020 10:51:14.223 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorWriter.write - written CTQ
+27-05-2020 10:51:14.225 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorWriter.write - written CTQ
+27-05-2020 11:04:58.518 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 12468 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 11:04:58.531 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 11:04:58.532 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 11:06:32.011 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarting - Starting FincluezCasaTransformerApplication on PRO-PGHG219 with PID 7664 (D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer\target\classes started by Shashank.CH in D:\FinCluez-Refactor\fincluez-casa-transformer\fincluez-casa-transformer)
+27-05-2020 11:06:32.019 [main] DEBUG c.p.f.f.FincluezCasaTransformerApplication.logStarting - Running with Spring Boot v2.3.0.RELEASE, Spring v5.2.6.RELEASE
+27-05-2020 11:06:32.020 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+27-05-2020 11:06:46.221 [main] INFO  c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.<init> - Creating beans for FinCluez CasaTransformation BatchProcessorJob!!
+27-05-2020 11:06:47.270 [main] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorReaderConfig.getDriverQueryForQueuePopulator - Inside getDriverQueryForQueuePopulator
+27-05-2020 11:06:47.971 [main] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorReaderConfig.getDriverQueryForQueuePopulator - querystore retrieved select branch_code, cust_ac_no from stg_sttm_cust_account 
+27-05-2020 11:06:47.980 [main] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorReaderConfig.casaTransformerQueuePopulatorReader - reader instantiated
+27-05-2020 11:06:48.242 [main] DEBUG c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.casaTransformerQueuePopulatorStep - Creating casaTransformerQueuePopulatorStep
+27-05-2020 11:06:48.360 [main] DEBUG c.p.f.f.c.CasaTransformerQueuePopulatorJobConfig.casaTransformerQueuePopulatorJob - Creating casaTransformerQueuePopulatorJob
+27-05-2020 11:06:53.580 [main] INFO  c.p.f.f.FincluezCasaTransformerApplication.logStarted - Started FincluezCasaTransformerApplication in 23.587 seconds (JVM running for 25.582)
+27-05-2020 11:06:56.229 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@605147fd
+27-05-2020 11:06:56.233 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@41cb1f84
+27-05-2020 11:06:56.313 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@157403b3[
+  branchCode=002
+  customerAccountNumber=100010
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.313 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@5ed135cb[
+  branchCode=002
+  customerAccountNumber=10006
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.315 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@10394a49
+27-05-2020 11:06:56.317 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@99740f5[
+  branchCode=001
+  customerAccountNumber=10002
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.316 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@669834ff
+27-05-2020 11:06:56.319 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@3c4ba3ef
+27-05-2020 11:06:56.320 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@6ba726f6[
+  branchCode=001
+  customerAccountNumber=10003
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.322 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@311652c9
+27-05-2020 11:06:56.323 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@2b52cf6[
+  branchCode=001
+  customerAccountNumber=10004
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.324 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@6380a394
+27-05-2020 11:06:56.324 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@31c2a984[
+  branchCode=001
+  customerAccountNumber=10005
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.328 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@915b81e[
+  branchCode=002
+  customerAccountNumber=10007
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.329 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@3959e9c
+27-05-2020 11:06:56.330 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@543d8c48[
+  branchCode=002
+  customerAccountNumber=10008
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.331 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@732565fc
+27-05-2020 11:06:56.332 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@57d4e6ce[
+  branchCode=002
+  customerAccountNumber=10009
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.332 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Inside Processor with com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse@781ae3d6
+27-05-2020 11:06:56.333 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorProcessor.process - Processor returning CTQ com.profinch.fincluez.fincluezcasatransformer.entites.CasaTransformationQueue@407d7f51[
+  branchCode=001
+  customerAccountNumber=10001
+  transformationStatus=UNPROCESSED
+]
+27-05-2020 11:06:56.345 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorWriter.write - Inside CTQ Writer with 5
+27-05-2020 11:06:56.345 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorWriter.write - Inside CTQ Writer with 5
+27-05-2020 11:06:56.490 [FinCluez-CasaTransformer-2] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorWriter.write - written CTQ
+27-05-2020 11:06:56.512 [FinCluez-CasaTransformer-1] DEBUG c.p.f.f.j.CasaTransformerQueuePopulatorWriter.write - written CTQ
