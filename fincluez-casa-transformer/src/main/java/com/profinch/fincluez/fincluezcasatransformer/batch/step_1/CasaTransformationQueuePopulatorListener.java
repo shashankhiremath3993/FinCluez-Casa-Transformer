@@ -1,8 +1,8 @@
 package com.profinch.fincluez.fincluezcasatransformer.batch.step_1;
 
 import com.profinch.fincluez.fincluezcasatransformer.constants.JobName;
-import com.profinch.fincluez.finclueztlibrary.entities.martEntities.jobStatus.TransformationJobStatus;
-import com.profinch.fincluez.finclueztlibrary.repo.martRepo.jobStatus.TransformationJobStatusRepo;
+import com.profinch.fincluez.finclueztlibrary.entities.martEntities.TransformationJobStatus;
+import com.profinch.fincluez.finclueztlibrary.repo.martRepo.TransformationJobStatusRepo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.ExitStatus;
@@ -15,8 +15,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.sql.Timestamp;
 import java.util.Date;
 
-public class CasaTransformerQueuePopulatorListener implements StepExecutionListener {
-    private Logger log = LoggerFactory.getLogger(CasaTransformerQueuePopulatorListener.class);
+public class CasaTransformationQueuePopulatorListener implements StepExecutionListener {
+    private Logger log = LoggerFactory.getLogger(CasaTransformationQueuePopulatorListener.class);
 
     @Autowired
     private TransformationJobStatusRepo transformationJobStatusRepo;

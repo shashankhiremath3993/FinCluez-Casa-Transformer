@@ -13,13 +13,13 @@ import java.util.List;
 
 @Component
 @Transactional(rollbackFor = Exception.class)
-public class CasaTransformerQueuePopulatorWriter implements ItemWriter<TransformationQueue> {
+public class CasaTransformationQueuePopulatorWriter implements ItemWriter<TransformationQueue> {
 
     TransformationQueueRepo transformationQueueRepo;
-    private Logger log = LoggerFactory.getLogger(CasaTransformerQueuePopulatorWriter.class);
+    private Logger log = LoggerFactory.getLogger(CasaTransformationQueuePopulatorWriter.class);
 
     @Autowired
-    public CasaTransformerQueuePopulatorWriter(TransformationQueueRepo transformationQueueRepo) {
+    public CasaTransformationQueuePopulatorWriter(TransformationQueueRepo transformationQueueRepo) {
         this.transformationQueueRepo = transformationQueueRepo;
     }
 

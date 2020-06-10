@@ -1,9 +1,9 @@
 package com.profinch.fincluez.fincluezcasatransformer.batch.step_1;
 
 import com.profinch.fincluez.fincluezcasatransformer.constants.QueryStoreQueryId;
-import com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse;
-import com.profinch.fincluez.finclueztlibrary.entities.infraEntities.queryStore.DriverQueryStore;
-import com.profinch.fincluez.finclueztlibrary.repo.infraRepo.queryStore.DriverQueryStoreRepo;
+import com.profinch.fincluez.fincluezcasatransformer.models.TransformationQueueModel;
+import com.profinch.fincluez.finclueztlibrary.entities.infraEntities.DriverQueryStore;
+import com.profinch.fincluez.finclueztlibrary.repo.infraRepo.DriverQueryStoreRepo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.batch.core.configuration.annotation.StepScope;
@@ -25,10 +25,10 @@ import java.util.Optional;
 
 
 @Configuration
-public class CasaTransformerQueuePopulatorReaderConfig {
+public class CasaTransformationQueuePopulatorReaderConfig {
 
 
-    private Logger log = LoggerFactory.getLogger(CasaTransformerQueuePopulatorReaderConfig.class);
+    private Logger log = LoggerFactory.getLogger(CasaTransformationQueuePopulatorReaderConfig.class);
 
 
     @Autowired
@@ -54,11 +54,11 @@ public class CasaTransformerQueuePopulatorReaderConfig {
 
     @Bean
     @StepScope
-    public ItemReader<? extends CasaTransformerQueuePopulatorResponse> casaTransformerQueuePopulatorReader
+    public ItemReader<? extends TransformationQueueModel> casaTransformationQueuePopulatorReader
             (@Value("#{jobParameters['entityCode']}") String entityCode,
              @Value("#{jobParameters['branchCode']}") String branchCode,
              @Value("#{jobParameters['elRunDate']}") Date elRunDate) {
-        JdbcPagingItemReader<CasaTransformerQueuePopulatorResponse> reader = new JdbcPagingItemReader<CasaTransformerQueuePopulatorResponse>();
+        JdbcPagingItemReader<TransformationQueueModel> reader = new JdbcPagingItemReader<TransformationQueueModel>();
         final SqlPagingQueryProviderFactoryBean sqlPagingQueryProviderFactoryBean = new SqlPagingQueryProviderFactoryBean();
         sqlPagingQueryProviderFactoryBean.setDataSource(stagingDataSource);
         DriverQueryStore driverQueryStore = getDriverQueryForQueuePopulator();
@@ -80,7 +80,8 @@ public class CasaTransformerQueuePopulatorReaderConfig {
         }
         reader.setDataSource(stagingDataSource);
         reader.setPageSize(5);
-        reader.setRowMapper(new BeanPropertyRowMapper<CasaTransformerQueuePopulatorResponse>(CasaTransformerQueuePopulatorResponse.class));
+        reader.setRowMapper(new BeanPropertyRowMapper<TransformationQueueModel>(TransformationQueueModel.class));
+        log.debug("Returning Step-1 Reader {}",reader.toString());
         return reader;
 
     }

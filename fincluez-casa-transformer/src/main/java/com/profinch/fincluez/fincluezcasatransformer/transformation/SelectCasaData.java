@@ -2,7 +2,7 @@ package com.profinch.fincluez.fincluezcasatransformer.transformation;
 
 import com.profinch.fincluez.fincluezcasatransformer.constants.QueryStoreQueryId;
 import com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformationInputModel;
-import com.profinch.fincluez.finclueztlibrary.entities.infraEntities.queryStore.QueryStore;
+import com.profinch.fincluez.finclueztlibrary.entities.infraEntities.QueryStore;
 import com.profinch.fincluez.finclueztlibrary.entities.martEntities.TransformationQueue;
 import com.profinch.fincluez.finclueztlibrary.service.QueryStoreCacheService;
 import org.springframework.beans.factory.annotation.Autowired;

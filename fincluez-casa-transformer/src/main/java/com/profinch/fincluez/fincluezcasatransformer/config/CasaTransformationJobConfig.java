@@ -1,19 +1,15 @@
 package com.profinch.fincluez.fincluezcasatransformer.config;
 
-import com.profinch.fincluez.fincluezcasatransformer.batch.step_1.CasaTransformerQueuePopulatorProcessor;
-import com.profinch.fincluez.fincluezcasatransformer.batch.step_1.CasaTransformerQueuePopulatorWriter;
+import com.profinch.fincluez.fincluezcasatransformer.batch.step_1.CasaTransformationQueuePopulatorProcessor;
+import com.profinch.fincluez.fincluezcasatransformer.batch.step_1.CasaTransformationQueuePopulatorWriter;
 import com.profinch.fincluez.fincluezcasatransformer.batch.step_2.CasaTransformationProcessor;
 import com.profinch.fincluez.fincluezcasatransformer.batch.step_2.CasaTransformationWriter;
-import com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformationInputModel;
 import com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformationOutputModel;
-import com.profinch.fincluez.fincluezcasatransformer.models.CasaTransformerQueuePopulatorResponse;
+import com.profinch.fincluez.fincluezcasatransformer.models.TransformationQueueModel;
 import com.profinch.fincluez.finclueztlibrary.entities.martEntities.TransformationQueue;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.batch.core.Job;
-import org.springframework.batch.core.JobExecutionListener;
-import org.springframework.batch.core.Step;
-import org.springframework.batch.core.StepExecutionListener;
+import org.springframework.batch.core.*;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
@@ -38,10 +34,7 @@ public class CasaTransformationJobConfig {
     JobBuilderFactory jobBuilderFactory;
     @Autowired
     StepBuilderFactory stepBuilderFactory;
-    @Autowired
-    StepExecutionListener casaQueuePopulatorListener;
-    @Autowired
-    StepExecutionListener casaTransformationListener;
+
 
     //Job Listener
     @Autowired
@@ -49,25 +42,39 @@ public class CasaTransformationJobConfig {
 
     //Step_0
     @Autowired
+    @Qualifier("validationTasklet")
     private Tasklet validationTasklet;
     @Autowired
+    @Qualifier("validationTaskletListener")
     private StepExecutionListener validationTaskletListener;
 
     //Step-1
     @Autowired
-    private ItemReader casaTransformerQueuePopulatorReader;
+    @Qualifier("casaTransformationQueuePopulatorReader")
+    private ItemReader casaTransformationQueuePopulatorReader;
     @Autowired
-    private CasaTransformerQueuePopulatorProcessor casaTransformerQueuePopulatorProcessor;
+    @Qualifier("casaTransformationQueuePopulatorProcessor")
+    private CasaTransformationQueuePopulatorProcessor casaTransformationQueuePopulatorProcessor;
     @Autowired
-    private CasaTransformerQueuePopulatorWriter casaTransformerQueuePopulatorWriter;
+    @Qualifier("casaTransformationQueuePopulatorWriter")
+    private CasaTransformationQueuePopulatorWriter casaTransformationQueuePopulatorWriter;
+    @Autowired
+    @Qualifier("casaTransformationQueuePopulatorListener")
+    private StepExecutionListener casaTransformationQueuePopulatorListener;
 
     //Step-2
     @Autowired
-    private ItemReader casaTransformationPagingReader;
+    @Qualifier("casaTransformationReader")
+    private ItemReader casaTransformationReader;
     @Autowired
+    @Qualifier("casaTransformationProcessor")
     private CasaTransformationProcessor casaTransformationProcessor;
     @Autowired
+    @Qualifier("casaTransformationWriter")
     private CasaTransformationWriter casaTransformationWriter;
+    @Autowired
+    @Qualifier("casaTransformationListener")
+    private StepExecutionListener casaTransformationListener;
 
 
     public CasaTransformationJobConfig() {
@@ -90,32 +97,28 @@ public class CasaTransformationJobConfig {
 
     //Step-1
     @Bean
-    Step casaTransformerQueuePopulatorStep() {
-        log.debug("Creating casaTransformerQueuePopulatorStep");
+    Step casaTransformationQueuePopulatorStep() {
+        log.debug("Creating casaTransformationQueuePopulatorStep");
         SimpleStepBuilder builder =
-                (SimpleStepBuilder) stepBuilderFactory.get("casaTransformerQueuePopulatorStep")
-                        .<CasaTransformerQueuePopulatorResponse, TransformationQueue>chunk(5)
-                        .reader(casaTransformerQueuePopulatorReader)
-                        .processor(casaTransformerQueuePopulatorProcessor)
-                        .writer(casaTransformerQueuePopulatorWriter)
+                (SimpleStepBuilder) stepBuilderFactory.get("casaTransformationQueuePopulatorStep")
+                        .<TransformationQueueModel, TransformationQueue>chunk(5)
+                        .reader(casaTransformationQueuePopulatorReader)
+                        .processor(casaTransformationQueuePopulatorProcessor)
+                        .writer(casaTransformationQueuePopulatorWriter)
                         .taskExecutor(taskExecutor())
                         .throttleLimit(2);
-        builder.listener((StepExecutionListener) casaQueuePopulatorListener);
+        builder.listener((StepExecutionListener) casaTransformationQueuePopulatorListener);
         return builder.build();
     }
 
 
     //Step-2
     @Bean
-    Step casaTransformationStep(
-            @Qualifier("validationTaskletStep") Step validationTaskletStep,
-            @Qualifier("casaTransformationQueuePopulatorStep") Step casaTransformationQueuePopulatorStep,
-            @Qualifier("casaTransformationStep") Step casaTransformationStep
-    ) {
+    Step casaTransformationStep() {
         log.debug("Creating casaTransformationStep");
         SimpleStepBuilder builder = (SimpleStepBuilder) stepBuilderFactory.get("casaTransformationStep")
                 .<TransformationQueue, CasaTransformationOutputModel>chunk(5)
-                .reader(casaTransformationPagingReader)
+                .reader(casaTransformationReader)
                 .processor(casaTransformationProcessor)
                 .writer(casaTransformationWriter)
                 .taskExecutor(taskExecutor())
@@ -128,20 +131,20 @@ public class CasaTransformationJobConfig {
     @Bean
     public Job casaTransformationJob(
             @Qualifier("validationTaskletStep") Step validationTaskletStep,
-            @Qualifier("casaTransformationQueuePopulatorStep") Step casaTransformerQueuePopulatorStep,
+            @Qualifier("casaTransformationQueuePopulatorStep") Step casaTransformationQueuePopulatorStep,
             @Qualifier("casaTransformationStep") Step casaTransformationStep
     ) {
-        log.debug("Creating casaTransformerQueuePopulatorJob");
-        return jobBuilderFactory.get("casaTransformationBatchProcessJob")
+        log.debug("Creating casaTransformationJob");
+        return jobBuilderFactory.get("casaTransformationJob")
                 .incrementer(new RunIdIncrementer())
                 //Step-0 to Step-1
                 .start(validationTaskletStep)
                 .on("run-Step-1")
-                .to(casaTransformerQueuePopulatorStep)
+                .to(casaTransformationQueuePopulatorStep)
                 .from(validationTaskletStep).on("skip-Step-1")
                 .to(casaTransformationStep)
-                .from(casaTransformerQueuePopulatorStep)
-                .on("*")
+                .from(casaTransformationQueuePopulatorStep)
+                .on(ExitStatus.COMPLETED.toString())
                 .to(casaTransformationStep)
                 .end()
                 .listener(casaTransformationJobListener)

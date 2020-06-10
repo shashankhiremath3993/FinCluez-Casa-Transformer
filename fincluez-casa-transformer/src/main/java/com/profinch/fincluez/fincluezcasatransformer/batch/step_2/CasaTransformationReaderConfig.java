@@ -34,7 +34,7 @@ public class CasaTransformationReaderConfig {
 
     @Bean
     @StepScope
-    public ItemReader<? extends TransformationQueue> casaTransformationQueue
+    public ItemReader<? extends TransformationQueue> casaTransformationReader
     (@Value("#{jobParameters['entityCode']}") String entityCode,
      @Value("#{jobParameters['branchCode']}") String branchCode,
      @Value("#{jobParameters['elRunDate']}") Date elRunDate) {

@@ -9,7 +9,7 @@ import java.sql.Date;
 
 @Getter
 @Setter
-public class CasaTransformerQueuePopulatorResponse {
+public class TransformationQueueModel {
 
     private String entity_code;
     private String branch_code;
