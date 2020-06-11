@@ -28,7 +28,7 @@ public class CasaTransformationQueuePopulatorProcessor implements ItemProcessor<
         transformationQueue.setBranchCode(transformationQueueModel.getBranch_code());
         transformationQueue.setEntityCode(transformationQueueModel.getEntity_code());
         transformationQueue.setElRunDate(transformationQueueModel.getEl_run_date());
-        transformationQueue.setReferenceNumber(transformationQueueModel.getCustomer_account_number());
+        transformationQueue.setReferenceNumber(transformationQueueModel.getCust_ac_no());
         transformationQueue.setTransformationProcessStatus(ProcessStatus.UNPROCESSED);
         transformationQueue.setQueuedTimeStamp(new Timestamp(new Date().getTime()));
         transformationQueue.setModule(ModuleCode.CASA.toString());

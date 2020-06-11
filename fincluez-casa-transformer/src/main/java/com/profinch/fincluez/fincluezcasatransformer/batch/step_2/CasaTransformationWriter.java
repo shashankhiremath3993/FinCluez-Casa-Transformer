@@ -34,22 +34,28 @@ public class CasaTransformationWriter implements ItemWriter<CasaTransformationOu
 
     }
 
-
     @Override
     public void write(List<? extends CasaTransformationOutputModel> casaTransformationOutputModelsList) throws Exception {
         log.debug("Inside CasaTransformationOutputModel Writer with {}", casaTransformationOutputModelsList.size());
         for (CasaTransformationOutputModel casaTransformationOutputModel : casaTransformationOutputModelsList){
             log.debug("Repo Saving Mart {}", casaTransformationOutputModel.getCasa());
-            casaRepo.save(casaTransformationOutputModel.getCasa());
+
+            if (casaTransformationOutputModel.getCasa() != null){
+                log.debug("Casa in CTOModel is not null");
+                casaRepo.save(casaTransformationOutputModel.getCasa());
+            }
+
 
             log.debug("Repo Saving Mart Hist {}", casaTransformationOutputModel.getCasaHist());
-            casaHistRepo.save(casaTransformationOutputModel.getCasaHist());
+            if (casaTransformationOutputModel.getCasaHist() != null){
+                log.debug("CasaHist in CTOModel is not null");
+                casaHistRepo.save(casaTransformationOutputModel.getCasaHist());
+            }
 
-            log.debug("Repo Saving Queue {}", casaTransformationOutputModel.getTransformationQueue());
+            log.debug("Persisting TransformationQueue {}", casaTransformationOutputModel.getTransformationQueue());
             transformationQueueRepo.save(casaTransformationOutputModel.getTransformationQueue());
         }
         log.debug("written CasaTransformationOutputModel");
     }
-
 
 }

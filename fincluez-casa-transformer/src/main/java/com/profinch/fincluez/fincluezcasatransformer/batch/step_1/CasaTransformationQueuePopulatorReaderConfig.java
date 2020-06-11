@@ -68,6 +68,11 @@ public class CasaTransformationQueuePopulatorReaderConfig {
         sqlPagingQueryProviderFactoryBean.setSortKey(driverQueryStore.getSortQueryString());
 
         Map<String, Object> parameterValues = new HashMap<>();
+
+        log.debug("********* Step-1 Reader Config....with EL-Run-Date as {}", elRunDate);
+        log.debug("********* Step-1 Reader Config....with EntityCode as {}", entityCode);
+        log.debug("********* Step-1 Reader Config....with BranchCode as {}", branchCode);
+
         parameterValues.put("entityCode", entityCode);
         parameterValues.put("branchCode", branchCode);
         parameterValues.put("elRunDate", elRunDate);

@@ -76,9 +76,9 @@ public class CasaTransformationJobLauncher implements CommandLineRunner {
         jobParametersBuilder.addString("entityCode", args[0]);
         // param 1
         jobParametersBuilder.addString("branchCode", args[1]);
-
-        jobParametersBuilder.addDate("elRunDate", elRunDate);
-
+        // param 2
+        jobParametersBuilder.addDate("elRunDate", DateUtils.truncate(elRunDate,Calendar.DATE));
+        // param 3
         jobParametersBuilder.addLong("currentTime", new Date().getTime());
         return jobParametersBuilder.toJobParameters();
     }

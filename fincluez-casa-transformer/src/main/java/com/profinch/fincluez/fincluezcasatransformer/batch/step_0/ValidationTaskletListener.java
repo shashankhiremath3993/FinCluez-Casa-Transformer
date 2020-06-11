@@ -36,7 +36,7 @@ public class ValidationTaskletListener implements StepExecutionListener {
     @Override
     @AfterStep
     public ExitStatus afterStep(StepExecution stepExecution) {
-        log.debug("********* AFTER STEP-0");
+        log.debug("********* AFTER STEP-0 First Occurrence");
         String exitStatusString;
         Date elRunDate = stepExecution.getJobParameters().getDate("elRunDate");
         log.debug("********* AFTER STEP-0....with EL-Run-Date as {}", elRunDate);

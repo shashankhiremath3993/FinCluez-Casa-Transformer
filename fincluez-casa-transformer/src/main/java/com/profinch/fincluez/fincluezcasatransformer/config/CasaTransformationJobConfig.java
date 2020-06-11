@@ -92,6 +92,7 @@ public class CasaTransformationJobConfig {
         return stepBuilderFactory.get("validationTaskletStep")
                 .tasklet(validationTasklet)
                 .listener(validationTaskletListener)
+                .throttleLimit(1)
                 .build();
     }
 
@@ -106,7 +107,7 @@ public class CasaTransformationJobConfig {
                         .processor(casaTransformationQueuePopulatorProcessor)
                         .writer(casaTransformationQueuePopulatorWriter)
                         .taskExecutor(taskExecutor())
-                        .throttleLimit(2);
+                        .throttleLimit(1);
         builder.listener((StepExecutionListener) casaTransformationQueuePopulatorListener);
         return builder.build();
     }
@@ -122,7 +123,7 @@ public class CasaTransformationJobConfig {
                 .processor(casaTransformationProcessor)
                 .writer(casaTransformationWriter)
                 .taskExecutor(taskExecutor())
-                .throttleLimit(2);
+                .throttleLimit(1);
         builder.listener((StepExecutionListener) casaTransformationListener);
         return builder.build();
     }
@@ -139,13 +140,14 @@ public class CasaTransformationJobConfig {
                 .incrementer(new RunIdIncrementer())
                 //Step-0 to Step-1
                 .start(validationTaskletStep)
-                .on("run-Step-1")
-                .to(casaTransformationQueuePopulatorStep)
-                .from(validationTaskletStep).on("skip-Step-1")
-                .to(casaTransformationStep)
+                    .on("run-Step-1")
+                    .to(casaTransformationQueuePopulatorStep)
+                .from(validationTaskletStep)
+                    .on("skip-Step-1")
+                    .to(casaTransformationStep)
                 .from(casaTransformationQueuePopulatorStep)
-                .on(ExitStatus.COMPLETED.toString())
-                .to(casaTransformationStep)
+                    .on("COMPLETED")
+                    .to(casaTransformationStep)
                 .end()
                 .listener(casaTransformationJobListener)
                 .build();

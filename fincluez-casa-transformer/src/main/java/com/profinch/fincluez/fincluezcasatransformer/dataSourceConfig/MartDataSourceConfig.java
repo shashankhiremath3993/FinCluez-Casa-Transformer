@@ -28,7 +28,7 @@ import java.util.Map;
         "com.profinch.fincluez.finclueztlibrary.entities.martEntities"})
 @EnableJpaRepositories(basePackages = {"com.profinch.fincluez.fincluezcasatransformer.repo.martRepo",
         "com.profinch.fincluez.finclueztlibrary.repo.martRepo"},
-        entityManagerFactoryRef = "entityManagerFactory",
+        entityManagerFactoryRef = "martEntityManagerFactory",
         transactionManagerRef = "transactionManager")
 @PropertySource(
         value = "file:${PROPERTY_PATH}",
@@ -52,20 +52,16 @@ public class MartDataSourceConfig {
     @Primary
     public DataSource martDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-
-
         dataSource.setDriverClassName(dataSourceDriver);
         dataSource.setUrl(dataSourceUrl);
         dataSource.setUsername(dataSourceUsername);
         dataSource.setPassword(dataSourcePassword);
-
-
         return dataSource;
     }
 
-    @Bean(name = "entityManagerFactory")
+    @Bean(name = "martEntityManagerFactory")
     @Primary
-    public LocalContainerEntityManagerFactoryBean entityManagerFactory
+    public LocalContainerEntityManagerFactoryBean martEntityManagerFactory
             (EntityManagerFactoryBuilder builder) {
         Map<String, Object> properties = new HashMap<String, Object>();
         //properties.put("hibernate.hbm2ddl.auto", "update");
@@ -85,7 +81,7 @@ public class MartDataSourceConfig {
     @Bean(name = "transactionManager")
     @Primary
     public PlatformTransactionManager transactionManager(
-            final @Qualifier("entityManagerFactory") LocalContainerEntityManagerFactoryBean entityManagerFactory) {
-        return new JpaTransactionManager(entityManagerFactory.getObject());
+            final @Qualifier("martEntityManagerFactory") LocalContainerEntityManagerFactoryBean martEntityManagerFactory) {
+        return new JpaTransactionManager(martEntityManagerFactory.getObject());
     }
 }

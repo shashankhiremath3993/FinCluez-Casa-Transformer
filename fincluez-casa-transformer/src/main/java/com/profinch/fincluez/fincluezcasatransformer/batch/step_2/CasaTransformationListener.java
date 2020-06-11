@@ -11,10 +11,12 @@ import org.springframework.batch.core.StepExecutionListener;
 import org.springframework.batch.core.annotation.AfterStep;
 import org.springframework.batch.core.annotation.BeforeStep;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import java.sql.Timestamp;
 import java.util.Date;
 
+@Component
 public class CasaTransformationListener implements StepExecutionListener {
     private Logger log = LoggerFactory.getLogger(CasaTransformationListener.class);
 

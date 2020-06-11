@@ -51,14 +51,10 @@ public class MaintDataSourceConfig {
     @Bean(name = "maintDataSource")
     public DataSource maintDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-
-
         dataSource.setDriverClassName(dataSourceDriver);
         dataSource.setUrl(dataSourceUrl);
         dataSource.setUsername(dataSourceUsername);
         dataSource.setPassword(dataSourcePassword);
-
-
         return dataSource;
     }
 

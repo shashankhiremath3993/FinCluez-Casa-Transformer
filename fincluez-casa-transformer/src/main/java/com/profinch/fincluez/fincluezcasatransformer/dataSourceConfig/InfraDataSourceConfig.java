@@ -50,14 +50,10 @@ public class InfraDataSourceConfig {
     @Bean(name = "infraDataSource")
     public DataSource infraDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-
-
         dataSource.setDriverClassName(dataSourceDriver);
         dataSource.setUrl(dataSourceUrl);
         dataSource.setUsername(dataSourceUsername);
         dataSource.setPassword(dataSourcePassword);
-
-
         return dataSource;
     }
 

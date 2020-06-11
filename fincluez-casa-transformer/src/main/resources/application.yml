@@ -26,4 +26,4 @@ spring:
     name: FinCluez-Casa-Transformer
   banner:
     location: classpath:banner.txt
-PROPERTY_PATH: D:/FinCluez-Refactor/fincluez-casa-transformer/fincluez-casa-transformer/properties/FinCluez-Casa-Transformer.yml
+PROPERTY_PATH: E:/FinCluez/Properties/FinCluez-Casa-Transformer.yml

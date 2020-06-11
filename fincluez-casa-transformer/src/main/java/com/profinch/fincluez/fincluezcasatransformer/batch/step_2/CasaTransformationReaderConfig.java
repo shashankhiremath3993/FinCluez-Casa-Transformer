@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 
 import javax.sql.DataSource;
@@ -21,6 +22,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+@Configuration
 public class CasaTransformationReaderConfig {
 
     private Logger log = LoggerFactory.getLogger(CasaTransformationReaderConfig.class);
@@ -43,12 +45,13 @@ public class CasaTransformationReaderConfig {
         sqlPagingQueryProviderFactoryBean.setDataSource(martDataSource);
         sqlPagingQueryProviderFactoryBean.setSelectClause("select * ");
         sqlPagingQueryProviderFactoryBean.setFromClause("from transformation_queue");
-        sqlPagingQueryProviderFactoryBean.setWhereClause("where transformationProcessStatus =" + ProcessStatus.UNPROCESSED+
-                " and module ="+ ModuleCode.CASA +
+        sqlPagingQueryProviderFactoryBean.setWhereClause("where transformation_process_status ="
+                + "\'"+ ProcessStatus.UNPROCESSED + "\'" +
+                " and module = "+ "\'" + ModuleCode.CASA + "\'" +
                 " and entity_code = :entityCode" +
                 " and branch_code = :branchCode" +
                 " and el_run_date = :elRunDate");
-        sqlPagingQueryProviderFactoryBean.setSortKey(" referenceNumber");
+        sqlPagingQueryProviderFactoryBean.setSortKey("reference_number");
 
         Map<String, Object> parameterValues = new HashMap<>();
         parameterValues.put("entityCode", entityCode);

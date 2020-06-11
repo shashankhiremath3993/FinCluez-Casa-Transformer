@@ -13,7 +13,7 @@ public class TransformationQueueModel {
 
     private String entity_code;
     private String branch_code;
-    private String customer_account_number;
+    private String cust_ac_no;
     private Date el_run_date;
 
     @Override

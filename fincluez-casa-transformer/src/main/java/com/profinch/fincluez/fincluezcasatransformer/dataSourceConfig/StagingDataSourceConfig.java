@@ -50,14 +50,10 @@ public class StagingDataSourceConfig {
     @Bean(name = "stagingDataSource")
     public DataSource stagingDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
-
-
         dataSource.setDriverClassName(dataSourceDriver);
         dataSource.setUrl(dataSourceUrl);
         dataSource.setUsername(dataSourceUsername);
         dataSource.setPassword(dataSourcePassword);
-
-
         return dataSource;
     }
 
