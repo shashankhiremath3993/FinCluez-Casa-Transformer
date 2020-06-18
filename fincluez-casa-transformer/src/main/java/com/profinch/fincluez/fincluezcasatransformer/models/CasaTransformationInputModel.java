@@ -133,7 +133,7 @@ public class CasaTransformationInputModel extends TransformerInputModel {
 
     //Integer variables
 
-    private int atmDailyCountLimit;
+    private Integer atmDailyCountLimit;
 
     //double variables
 

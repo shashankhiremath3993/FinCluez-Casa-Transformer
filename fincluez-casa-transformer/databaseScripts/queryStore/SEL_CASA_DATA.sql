@@ -1,4 +1,4 @@
-insert into fincluez_infra.query_store (id_query,query_description,enabled,query_string) values
+insert into query_store (id_query,query_description,enabled,query_string) values
 ('SEL_CASA_DATA','Mart Query 0',true,
  'SELECT a.branch_code             as branchCode,
        a.CUST_AC_NO                as custAcNo,
@@ -73,7 +73,7 @@ insert into fincluez_infra.query_store (id_query,query_description,enabled,query
        ACY_MTD_TOVER_DR            as acyMtdToverDr,
        LCY_MTD_TOVER_DR            as lcyMtdToverDr,
        ACY_MTD_TOVER_CR            as acyMtdToverCr,
-       LCY_MTD_TOVER_CR            as lcyMtdToverDr,
+       LCY_MTD_TOVER_CR            as lcyMtdToverCr,
        ACY_ACCRUED_DR_IC           as acyAccruedDrIc,
        ACY_ACCRUED_CR_IC           as acyAccruedCrIc,
        DATE_LAST_CR_ACTIVITY       as dateLastCrActivity,
@@ -111,7 +111,7 @@ insert into fincluez_infra.query_store (id_query,query_description,enabled,query
        ACC_STMT_TYPE3              as accStmtType3,
        AC_STMT_CYCLE3              as acStmtCycle3,
        PREVIOUS_STATEMENT_DATE3    as previousStatementDate3,
-       PREVIOUS_STATEMENT_BALANCE3 as previousStatementBalance2,
+       PREVIOUS_STATEMENT_BALANCE3 as previousStatementBalance3,
        PREVIOUS_STATEMENT_NO3      as previousStatementNo3,
        GEN_STMT_ONLY_ON_MVMT3      as genStmtOnlyOnMvmt3,
        SWEEP_TYPE                  as sweepType,

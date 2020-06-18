@@ -9,25 +9,25 @@ fincluez:
     numberOfThreads: 4
   mart:
     datasource:
-      url: jdbc:postgresql://localhost:5432/FinFlowz?searchpath=fincluez_mart
-      username: fincluez_mart
-      password: fincluez_mart
+      url: jdbc:postgresql://localhost:5432/fincluez_mart
+      username: fincluez
+      password: fincluez
       driver: org.postgresql.Driver
   staging:
     datasource:
-      url: jdbc:postgresql://localhost:5432/FinFlowz?searchpath=fincluez_staging
-      username: fincluez_staging
-      password: fincluez_staging
+      url: jdbc:postgresql://localhost:5432/fincluez_staging
+      username: fincluez
+      password: fincluez
       driver: org.postgresql.Driver
   maint:
     datasource:
-      url: jdbc:postgresql://localhost:5432/FinFlowz?searchpath=fincluez_maint
-      username: fincluez_maint
-      password: fincluez_maint
+      url: jdbc:postgresql://localhost:5432/fincluez_maint
+      username: fincluez
+      password: fincluez
       driver: org.postgresql.Driver
   infra:
     datasource:
-      url: jdbc:postgresql://localhost:5432/FinFlowz?searchpath=fincluez_infra
-      username: fincluez_infra
-      password: fincluez_infra
+      url: jdbc:postgresql://localhost:5432/fincluez_infra
+      username: fincluez
+      password: fincluez
       driver: org.postgresql.Driver

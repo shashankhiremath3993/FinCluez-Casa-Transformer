@@ -5,6 +5,7 @@ public class QueryStoreQueryId {
     public static final String SEL_CASA_TRANSFORMATION_DRIVER = "SEL_CASA_TRANSFORMATION_DRIVER";
 
     public static final String SEL_CASA_DATA = "SEL_CASA_DATA";
+    public static final String SEL_DIM_BRN_LOADER = "SEL_DIM_BRN_LOADER";
     public static final String SEL_CASA_TD_DETAILS = "SEL_CASA_TD_DETAILS";
     public static final String SEL_CASA_CUST_INFO = "SEL_CASA_CUST_INFO";
     public static final String SEL_CASA_LIMITS_MAP = "SEL_CASA_LIMITS_MAP";

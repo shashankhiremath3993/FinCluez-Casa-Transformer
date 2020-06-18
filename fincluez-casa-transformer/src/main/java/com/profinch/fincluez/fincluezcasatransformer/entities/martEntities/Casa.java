@@ -65,6 +65,8 @@ public class Casa implements Serializable {
 
     private int tenorRemainingTD;
     private int tenorTD;
+    private int atmDailyTransactionCount;
+
 
     private double overdueDays;
     private double exchRate;
@@ -151,7 +153,6 @@ public class Casa implements Serializable {
     private double amtYtdInterestIncomeLcy;
     private double amtYtdInterestLiquidatedAcy;
     private double amtYtdInterestLiquidatedLcy;
-    private int atmDailyTransactionCount;
     private double monthlyAvgAvlBalAcy;
     private double monthlyAvgAvlBalLcy;
     private double mtdMaxBalAcy;
