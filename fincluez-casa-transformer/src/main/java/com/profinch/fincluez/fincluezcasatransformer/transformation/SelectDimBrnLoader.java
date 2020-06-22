@@ -28,7 +28,7 @@ public class SelectDimBrnLoader {
     @Qualifier("martDataSource")
     private DataSource martDataSource;
 
-    public DimBranchModel dimBranchModel(String entityCode,String branchCode){
+    public DimBranchModel getDimBranchModel(String entityCode,String branchCode){
         log.debug("Inside....dimBranchModel...with entityCode : {}  and BranchCode : {}",entityCode,branchCode);
 
         QueryStore queryStore = queryStoreCacheService.getQueryStoreByIdQuery(QueryStoreQueryId.SEL_DIM_BRN_LOADER);

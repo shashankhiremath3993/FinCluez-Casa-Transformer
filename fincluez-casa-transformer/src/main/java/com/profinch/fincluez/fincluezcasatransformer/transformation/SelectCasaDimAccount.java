@@ -28,7 +28,7 @@ public class SelectCasaDimAccount {
     @Qualifier("martDataSource")
     private DataSource martDataSource;
 
-    public DimAccountModel dimAccountModel(String account, String branch,String entityCode){
+    public DimAccountModel getDimAccountModel(String account, String branch,String entityCode){
         log.debug("Inside....dimAccountModel...with account : {}  and branch : {} and entityCode : {} ",account,branch,entityCode);
 
         QueryStore queryStore = queryStoreCacheService.getQueryStoreByIdQuery(QueryStoreQueryId.SEL_CASA_DIM_ACCOUNT);

@@ -8,4 +8,4 @@ insert into query_store (id_query,query_description,enabled,query_string) values
   AND A.Entity_Code = B.Entity_Code
   and A.Entity_Code = :entityCode
  and  A.Account = :account
- and  B.Branch  = :branch')
+ and  B.Branch  = :branch');

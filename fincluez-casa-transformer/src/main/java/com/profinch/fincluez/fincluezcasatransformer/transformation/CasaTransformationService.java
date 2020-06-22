@@ -3,17 +3,17 @@ package com.profinch.fincluez.fincluezcasatransformer.transformation;
 import com.profinch.fincluez.fincluezcasatransformer.entities.martEntities.Casa;
 import com.profinch.fincluez.fincluezcasatransformer.models.*;
 import com.profinch.fincluez.finclueztlibrary.constants.ProcessStatus;
-import com.profinch.fincluez.finclueztlibrary.entities.martEntities.DimAccount;
-import com.profinch.fincluez.finclueztlibrary.entities.martEntities.DimBranch;
-import com.profinch.fincluez.finclueztlibrary.entities.martEntities.DimBranchCK;
 import com.profinch.fincluez.finclueztlibrary.entities.martEntities.TransformationQueue;
-import com.profinch.fincluez.finclueztlibrary.service.DimCacheService;
 import com.profinch.fincluez.finclueztlibrary.transformer.TransformerInterface;
 import com.profinch.fincluez.finclueztlibrary.transformer.TransformerOutputModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import org.joda.time.DateTime;
+import org.joda.time.Days;
+
 
 import java.sql.Timestamp;
 import java.util.Date;
@@ -29,6 +29,12 @@ public class CasaTransformationService implements TransformerInterface {
     private  SelectDimBrnLoader selectDimBrnLoader;
     @Autowired
     private SelectCasaDimAccount selectCasaDimAccount;
+    @Autowired
+    private SelectCasaCustInfo selectCasaCustInfo;
+    @Autowired
+    private SelectCasaPersonalInfo selectCasaPersonalInfo;
+    @Autowired
+    private SelectBrnCcyCycleMap selectBrnCcyCycleMap;
 
 
     @Override
@@ -155,7 +161,7 @@ public class CasaTransformationService implements TransformerInterface {
         l_amtCurrentBalanceLcy = ctiModelFrom_SEL_CASA_DATA.getLcyCurrBalance();
 
         log.debug("Mapping Dim Branch with EntityCode : {} and BranchCode : {} ",ctiModelFrom_SEL_CASA_DATA.getEntityCode(),ctiModelFrom_SEL_CASA_DATA.getBranchCode());
-        DimBranchModel dimBranchModel = selectDimBrnLoader.dimBranchModel(ctiModelFrom_SEL_CASA_DATA.getEntityCode(),ctiModelFrom_SEL_CASA_DATA.getBranchCode());
+        DimBranchModel dimBranchModel = selectDimBrnLoader.getDimBranchModel(ctiModelFrom_SEL_CASA_DATA.getEntityCode(),ctiModelFrom_SEL_CASA_DATA.getBranchCode());
         log.debug("DimBranchModel from SEL_DIM_BRANCH_LOADER query {}",dimBranchModel.toString());
 
         if(dimBranchModel != null){
@@ -167,8 +173,8 @@ public class CasaTransformationService implements TransformerInterface {
             l_dateHist = l_applicationDate;
 
         }
-        log.debug("Mapping Dim Account with EntityCode : {} and BranchCode : {} and AccountNumber : {}");
-        DimAccountModel dimAccountModel = selectCasaDimAccount.dimAccountModel(l_customerAccountId,l_branch,ctiModelFrom_SEL_CASA_DATA.getEntityCode());
+        log.debug("Mapping Dim Account with EntityCode : {} and BranchCode : {} and AccountNumber : {}",ctiModelFrom_SEL_CASA_DATA.getEntityCode(),l_branch,l_customerAccountId);
+        DimAccountModel dimAccountModel = selectCasaDimAccount.getDimAccountModel(l_customerAccountId,l_branch,ctiModelFrom_SEL_CASA_DATA.getEntityCode());
         log.debug("DimAccountModel from SEL_CASA_DIM_ACCOUNT query {}",dimAccountModel.toString());
 
 
@@ -232,8 +238,54 @@ public class CasaTransformationService implements TransformerInterface {
             l_dateTDOpen = l_dateStart;
         }
 
-        log.debug("Loading SEL_CASA_CUST_INFO------------");
+        log.debug("Mapping SEL_CASA_CUST_INFO to CasaModel");
+        CasaModel casaModel = new CasaModel();
+        casaModel= selectCasaCustInfo.getSelCasaCustInfo(transformationQueue);
+        log.debug("SelectCasaCustInfo from SEL_CASA_CUST_INFO query {}",casaModel.toString());
 
+
+        if(casaModel != null) {
+            l_liabNo = casaModel.getLiabilityNo();
+        }
+
+        casaModel = null;
+        log.debug("Mapping SEL_CASA_CUST_PERSONAL_INFO to CasaModel");
+        casaModel = selectCasaPersonalInfo.getCasaCustPersonalInfo(transformationQueue);
+        log.debug("SelectCasaCustPersonalInfo from SEL_CASA_CUST_PERSONAL_INFO query {}",casaModel.toString());
+
+        log.debug("Mapping SEL_BRN_CCY_CYCLE_MAP to BranchCcyCycleModel");
+        BranchCcyCycleModel branchCcyCycleModel = selectBrnCcyCycleMap.getSelectBrnCcyCycleMap(transformationQueue);
+        log.debug("SelectBrnCcyCycleMap from SEL_BRN_CCY_CYCLE_MAP query {}",branchCcyCycleModel.toString());
+
+        if(branchCcyCycleModel != null) {
+
+            l_nextWorking = branchCcyCycleModel.getNextWorkingDay();
+            l_pcEndDate = branchCcyCycleModel.getPcEndDate();
+
+            if(l_nextWorking.after(l_pcEndDate)){
+                l_periodEnd = "Y";
+            }else{
+                l_periodEnd = "N";
+            }
+
+            l_dateCurrFinYearStart = branchCcyCycleModel.getFcStartDate();
+            l_dateCurrFinYearEnd = branchCcyCycleModel.getFcEndDate();
+            l_brnLcy = branchCcyCycleModel.getBranchLcy();
+            l_monthStartdate = branchCcyCycleModel.getMonthStartDate();
+            l_monthEnddate = branchCcyCycleModel.getMonthEndDate();
+
+        }
+
+        //DateTime l_date = new DateTime(l_applicationDate);
+        DateTime l_startdate = new DateTime(l_dateCurrFinYearStart);
+        DateTime l_enddate = new DateTime(l_dateCurrFinYearEnd);
+
+        log.debug("Financial Year [Start, End]=> [{}, {}]", l_startdate, l_enddate);
+        log.debug("l_casaResponse.getCcy(),l_brnLcy =>{},{}",ctiModelFrom_SEL_CASA_DATA.getCcy(),l_brnLcy);
+        if (ctiModelFrom_SEL_CASA_DATA.getCcy().equals(l_brnLcy)) {
+            l_exchRate = 1.00;
+            l_exchRateCol = 1.00;
+        }
 
 
 

@@ -3,7 +3,7 @@ package com.profinch.fincluez.fincluezcasatransformer.constants;
 public class QueryStoreQueryId {
 
     public static final String SEL_CASA_TRANSFORMATION_DRIVER = "SEL_CASA_TRANSFORMATION_DRIVER";
-
+    public static final String SEL_EXCH_RATE ="SEL_EXCH_RATE";
     public static final String SEL_CASA_DATA = "SEL_CASA_DATA";
     public static final String SEL_DIM_BRN_LOADER = "SEL_DIM_BRN_LOADER";
     public static final String SEL_CASA_TD_DETAILS = "SEL_CASA_TD_DETAILS";
